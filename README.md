@@ -16,9 +16,9 @@ Skills work in both **Claude.ai** and **Claude Code**.
 
 | Skill | Description |
 |-------|-------------|
-| [`sdlc-doc-generator`](./sdlc-doc-generator/) | Generates BRD, PRD, TDD, Deployment Plan, Release Notes, and ADR documents in Markdown from your project information |
-| [`exec-pitch-generator`](./exec-pitch-generator/) | Generates a Word investment proposal and PowerPoint pitch deck to get a project approved by executives |
-| [`web-expert`](./web-expert/) | Full-stack Next.js 16.2 + shadcn/ui expert — scaffolding, components, App Router, Server Actions, and more |
+| [`sdlc-doc-generator`](./skills/sdlc-doc-generator/) | Generates BRD, PRD, TDD, Deployment Plan, Release Notes, and ADR documents in Markdown from your project information |
+| [`exec-pitch-generator`](./skills/exec-pitch-generator/) | Generates a Word investment proposal and PowerPoint pitch deck to get a project approved by executives |
+| [`web-expert`](./skills/web-expert/) | Full-stack Next.js 16.2 + shadcn/ui expert — scaffolding, components, App Router, Server Actions, and more |
 
 ---
 
