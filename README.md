@@ -20,6 +20,7 @@ Skills work in both **Claude.ai** and **Claude Code**.
 | [`exec-pitch-generator`](./skills/exec-pitch-generator/) | Generates a Word investment proposal and PowerPoint pitch deck to get a project approved by executives |
 | [`web-expert`](./skills/web-expert/) | Full-stack Next.js 16.2 + shadcn/ui expert — scaffolding, components, App Router, Server Actions, and more |
 | [`fastify-typescript-backend`](./skills/fastify-typescript-backend/) | Scaffold and extend a production-grade REST API using Fastify v5, TypeScript, Bun, and Zod — with RFC 9457 error handling |
+| [`xquik-x-data`](./skills/xquik-x-data/) | Work with Xquik REST, MCP, webhooks, extraction jobs, and confirmation-gated X workflows |
 
 ---
 
@@ -27,9 +28,13 @@ Skills work in both **Claude.ai** and **Claude Code**.
 
 ### Claude.ai
 
-1. Download the `.skill` file for the skill you want
-2. Go to **Customize → Skills** and upload the file
-3. Make sure **Code execution and file creation** is enabled under **Settings → Capabilities**
+1. Package the skill directory from the repository root:
+   ```bash
+   python3 scripts/package_skill.py skills/<skill-name>
+   ```
+2. Select the generated `dist/<skill-name>.skill` file
+3. Go to **Customize → Skills** and upload the file
+4. Make sure **Code execution and file creation** is enabled under **Settings → Capabilities**
 
 > Requires a **Pro, Max, Team, or Enterprise** plan.
 
@@ -72,7 +77,7 @@ description: What this skill does and when Claude should use it.
 
 ## Resources
 
-- [Anthropic Skills Documentation](https://docs.claude.com)
+- [Anthropic Skills Documentation](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
 - [anthropics/skills](https://github.com/anthropics/skills) — official Anthropic skills repository
 - [Claude Code Skills Guide](https://code.claude.com/docs/en/skills)
 
